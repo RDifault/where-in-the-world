@@ -1,15 +1,17 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from "react";
+import ReactDOM from "react-dom/client";
 // import App from './App.jsx'
-import { RouterProvider } from "react-router-dom";
+import { BrowserRouter, RouterProvider } from "react-router-dom";
 import router from "./router";
-import './index.css'
-import { CountryProvider } from './CountryContext';
+import "./index.css";
+import { CountryProvider } from "./CountryContext";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <CountryProvider>
-    <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
-  </CountryProvider>,
-)
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <BrowserRouter basename="/where-in-the-world">
+    <CountryProvider>
+      <React.StrictMode>
+        <RouterProvider router={router} />
+      </React.StrictMode>
+    </CountryProvider>
+  </BrowserRouter>
+);
