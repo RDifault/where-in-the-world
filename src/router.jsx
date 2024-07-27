@@ -4,16 +4,16 @@ import Home from "./views/Home";
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/where-in-the-world/",
         element: <Home />,
     },
     {
-        path: "/country/:code",
+        path: "/where-in-the-world/country/:code",
         element: <CountryDetail />,
     },
     {
         path: "*",
-        element: <Navigate to="/" />,
+        element: <Navigate to="/where-in-the-world/" />,
     },
 ]);
 

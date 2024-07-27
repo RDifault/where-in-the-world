@@ -92,7 +92,7 @@ export default function Home() {
               key={country.cca3}
               className="transition ease-in-out cursor-pointer rounded-lg w-[250px] h-[320px] bg-white dark:bg-dblue-300 shadow-lg m-12 hover:scale-110 hover:shadow-2xl"
             >
-              <Link to={`/country/${country.cca3}`}>
+              <Link to={`/where-in-the-world/country/${country.cca3}`}>
                 <div className="w-[250px] h-[150px] rounded-t-lg bg-gray-100 flex justify-center items-center dark:bg-dblue-700">
                   <img src={country.flags.png} className="w-[120px] " alt="" />
                 </div>
