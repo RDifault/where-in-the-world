@@ -4,7 +4,7 @@ import tailwindcss from "tailwindcss";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/rest-countries/',
+  base: '/where-in-the-world/',
   css: {
     postcss: {
       plugins: [tailwindcss()],
