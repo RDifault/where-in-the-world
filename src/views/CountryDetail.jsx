@@ -141,7 +141,7 @@ export default function CountryDetail() {
                   ? borderCountries.map((borderCountry) => (
                       <Link
                         key={borderCountry.cca3}
-                        to={`/country/${borderCountry.cca3}`}
+                        to={`/where-in-the-world/country/${borderCountry.cca3}`}
                       >
                         <button className="flex flex-wrap text-xs font-normal items-center mr-4 px-8 my-2 bg-white text-dblue-700 dark:bg-dblue-300 dark:text-white rounded-md shadow-lg text-center justify-center hover:scale-110 md:text-sm">
                           <p className="px-0 py-2">
