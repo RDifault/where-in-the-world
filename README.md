@@ -6,12 +6,10 @@ This is a solution to the [REST Countries API with color theme switcher challeng
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -31,14 +29,10 @@ Users should be able to:
 - Click through to the border countries on the detail page
 - Toggle the color scheme between light and dark mode *(optional)*
 
-### Screenshot
-
-![](./screenshot.jpg)
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/rest-countries-api-using-vite-react-tailwind-tCSJQW2yS9
+- Live Site URL: https://rdifault.github.io/where-in-the-world/
 
 ## My process
 
@@ -47,16 +41,15 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
+- Desktop-first workflow
 - [React](https://reactjs.org/) - JS library
 - [Tailwind] (https://tailwindcss.com/) - For Styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I've made this project to be slightly differ from the given design. One of the noticable changes is that in the original design, the flags are supposed to be shown fully in the card from edge to edge. But in my web, there are a wrapper for the country flags. This is done to respect each flag's aspect ratio, and to make it differ from another country's flag if there are countries with similar flags like Indonesia and Monaco.
+
+But most importantly, i'm proud to have finished this project to deepen my knowledge in API calls, using React hooks, especially useContext, and routing using React-router. I've also learned how to filter and implement search bar in this project
 
 ### Useful resources
 
